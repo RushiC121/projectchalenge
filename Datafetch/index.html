@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zip_Link</title>
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <div class="spinner" id="spinner"></div>
+    <button id="fetchBtn">Fetch Data </button>
+    <button id="assignment2Button">Assignment2</button>
+
+    <table id="data-table" style="display: none">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Discount %</th>
+          <!-- Add more columns as per your data structure -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data rows will be dynamically added here -->
+      </tbody>
+    </table>
+    <div id="error-message" style="color: red"></div>
+    
+    <div id="pagination" style="display: none">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    
+    <script src="fetchdata.js"></script>
+    
+    <div id="data1"></div>
+    <div id="data2"></div>
+    <div id="data3"></div>
+   
+  </body>
+</html>
