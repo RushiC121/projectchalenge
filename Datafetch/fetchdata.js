@@ -87,6 +87,7 @@ document.getElementById("fetchBtn").addEventListener("click", () => {
       document.getElementById("nextBtn").addEventListener("click", () => {
         if (currentPage < Math.ceil(slicedproducts.length / rowsPerPage)) {
           currentPage++;
+//some changes
           populateTable(slicedproducts);
         }
       });
